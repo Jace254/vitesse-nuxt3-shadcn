@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { Button } from '@/components/ui/button'
+
 const route = useRoute<'hi-id'>()
 const user = useUserStore()
 const name = route.params.id
@@ -38,12 +40,13 @@ definePageMeta({
     <Counter />
 
     <div>
-      <NuxtLink
-        class="m-3 text-sm btn"
-        to="/"
-      >
-        Back
-      </NuxtLink>
+      <Button :as-child="true">
+        <NuxtLink
+          to="/"
+        >
+          Back
+        </NuxtLink>
+      </Button>
     </div>
   </div>
 </template>

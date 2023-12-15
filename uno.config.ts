@@ -7,7 +7,7 @@ import {
   presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
-} from 'unocss';
+} from 'unocss'
 import presetShadcn from './preset.shadcn'
 
 export default defineConfig({
@@ -31,6 +31,11 @@ export default defineConfig({
     }),
     presetShadcn(),
   ],
+  content: {
+    pipeline: {
+      include: [/\.ts/, /\.vue$/, /\.vue\?vue/],
+    },
+  },
   transformers: [
     transformerDirectives(),
     transformerVariantGroup(),

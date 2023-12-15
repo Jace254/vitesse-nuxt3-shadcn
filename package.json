@@ -14,8 +14,11 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
     "@tanstack/vue-table": "^8.10.7",
-    "clsx": "^2.0.0"
+    "@vueuse/core": "^10.7.0",
+    "clsx": "^2.0.0",
+    "radix-vue": "^1.2.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.4.4",
@@ -27,6 +30,7 @@
     "@unocss/nuxt": "^0.58.0",
     "@vite-pwa/nuxt": "^0.3.5",
     "@vueuse/nuxt": "^10.7.0",
+    "class-variance-authority": "^0.7.0",
     "consola": "^3.2.3",
     "eslint": "npm:eslint-ts-patch@^8.55.0-1",
     "eslint-plugin-format": "^0.1.0",

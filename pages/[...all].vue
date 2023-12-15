@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { Button } from '@/components/ui/button';
+
 const router = useRouter()
 </script>
 
@@ -9,9 +11,9 @@ const router = useRouter()
     </div>
     <div>Not found</div>
     <div>
-      <button text-sm btn m="3 t8" @click="router.back()">
+      <Button m="3 t8" @click="router.back()">
         Back
-      </button>
+      </Button>
     </div>
   </main>
 </template>

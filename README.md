@@ -37,6 +37,8 @@
 
 - 📲 [PWA](https://github.com/vite-pwa/nuxt) with offline support and auto-update behavior.
 
+- 🏋️ Shadcn intergration
+
 ## Plugins
 
 ### Nuxt Modules
@@ -47,6 +49,17 @@
 - [Pinia](https://github.com/vuejs/pinia) - intuitive, type safe, light and flexible Store for Vue.
 - [VitePWA](https://github.com/vite-pwa/nuxt) - zero-config PWA Plugin for Nuxt 3.
 - [DevTools](https://github.com/nuxt/devtools) - unleash Nuxt Developer Experience.
+
+### Extra
+
+- [RadixVue](https://www.radix-vue.com/) - unstyled primitive components to start you off
+- [ShadcnVue](https://www.shadcn-vue.com/) - Build your component library.
+
+  - To add shadcn-vue components to your project run:
+
+  ```sh
+  npx shadcn-vue@latest add [component-name]
+  ```
 
 ## IDE
 

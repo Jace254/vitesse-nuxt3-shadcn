@@ -80,7 +80,7 @@ We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https:
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-nuxt3/generate).
+[Create a repo from this template on GitHub](https://github.com/jace254/vitesse-nuxt3-shadcn/generate).
 
 ### Clone to local
 
